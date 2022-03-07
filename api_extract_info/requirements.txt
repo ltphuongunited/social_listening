@@ -1,0 +1,13 @@
+tensorflow
+keras
+torch
+torchvision
+pymongo
+opencv-python
+flask
+flask-cors
+Pillow
+scipy
+scikit-learn
+h5py
+pypiwin32

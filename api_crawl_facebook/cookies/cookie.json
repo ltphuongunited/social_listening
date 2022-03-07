@@ -1,0 +1,56 @@
+[
+    {
+        "value": "1024x768",
+        "secure": true,
+        "path": "/",
+        "httpOnly": false,
+        "name": "wd",
+        "expires": "2022-03-09T14:36:15Z",
+        "domain": ".facebook.com"
+    },
+    {
+        "value": "hIAfYoqd5PfGKC5NPxmAnRVU",
+        "secure": true,
+        "path": "/",
+        "httpOnly": true,
+        "name": "datr",
+        "expires": "2024-03-01T14:36:20Z",
+        "domain": ".facebook.com"
+    },
+    {
+        "value": "hIAfYsSR6uk2KXzxZXX-KToF",
+        "secure": true,
+        "path": "/",
+        "httpOnly": true,
+        "name": "sb",
+        "expires": "2024-03-01T14:36:20Z",
+        "domain": ".facebook.com"
+    },
+    {
+        "value": "100071046081975",
+        "secure": true,
+        "path": "/",
+        "httpOnly": false,
+        "name": "c_user",
+        "expires": "2023-03-02T14:36:17Z",
+        "domain": ".facebook.com"
+    },
+    {
+        "value": "41%3AXM6AXfO9y4AWTA%3A2%3A1646231687%3A-1%3A13420",
+        "secure": true,
+        "path": "/",
+        "httpOnly": true,
+        "name": "xs",
+        "expires": "2023-03-02T14:36:17Z",
+        "domain": ".facebook.com"
+    },
+    {
+        "value": "0juvPzNZaFJVT7nUa.AWX3N2VT2l9OfYxvYB49MHvEytg.BiH4CE.hZ.AAA.0.0.BiH4CK.AWUN4fdOQo4",
+        "secure": true,
+        "path": "/",
+        "httpOnly": true,
+        "name": "fr",
+        "expires": "2022-05-31T14:36:20Z",
+        "domain": ".facebook.com"
+    }
+]

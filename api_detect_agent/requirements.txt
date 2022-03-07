@@ -1,0 +1,9 @@
+pymongo
+flask
+flask_cors
+joblib
+pyvi
+pandas
+numpy
+sklearn
+pickle-mixin
