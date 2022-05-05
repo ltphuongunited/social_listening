@@ -1,1 +1,1 @@
-mongodb+srv://
+mongodb+srv://phuong:2001@cluster0.7ocqm.mongodb.net/test

@@ -201,7 +201,28 @@ def img_process():
     getid_user(link)
     os.system('python crawl_img_fb.py')
     return {'message':'Image successfully'}
-    
+
+# Crawl birth year
+@app.route('/birth-year', methods=['POST'] )
+@cross_origin(origin='*')
+def bio_process():
+    #If cookie exist, check it valid
+    if os.path.exists('./cookies/cookie.json'):
+        os.system("scrapy crawl check_login")
+        if not os.path.exists('./cookies/cookie.json'):
+            os.system("scrapy crawl login")        
+    else:
+        os.system("scrapy crawl login")
+
+    os.system("scrapy crawl check_login")
+    if not os.path.exists('./cookies/cookie.json'):
+        return {'message':'Login unsuccessfully - Check account'}
+
+    link = request.json['link']
+    getid_user(link)
+    os.system('scrapy crawl birthyear')
+    return {'message':'Birthyear successfully'}
+
 # Start Backend
 if __name__ == '__main__':
     app.run(host='', port='5000',debug=True)
